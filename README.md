@@ -2,7 +2,10 @@
 
 The graphics library is intended to provide capabilities to drive the TFT color display, it implements the low level driver SPI communication, data and command transmission to the LCD, and presents the middleware graphics layer. The final result is a library to perform drawing of basic graphics, with colours and shapes like circles, lines, rectangles, text, etc.
 
-
+# Register driver for SPI - IP on ZYNQ device
+```
+TFT_SPI_DISPLAY_240x320.h
+```
 # SPI driver for ILI9341
 
 The SPI drivers for the ILI9341 controller is the lowest abstraction level of the graphics library, this implements the SPI setup, for sending data and the graphics commands. The code is implemented in tft_spi_driver.c.
