@@ -127,7 +127,7 @@ TFTGraphics * TFTGraphics_instance(void);
 
 The following lines show the initialization procedure, this code initializes the TFT LCD and draws a red line in diagonal of the screen.
 
-```
+```C
 static uint8_t Poxi_initGraphics(void)
 {
     Poxi_graphics = TFTGraphics_instance();
